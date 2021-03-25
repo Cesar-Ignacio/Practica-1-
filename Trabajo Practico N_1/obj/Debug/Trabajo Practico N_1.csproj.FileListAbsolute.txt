@@ -1,0 +1,13 @@
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\bin\Debug\Trabajo Practico N_1.exe.config
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\bin\Debug\Trabajo Practico N_1.exe
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\bin\Debug\Trabajo Practico N_1.pdb
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo Practico N_1.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo_Practico_N_1.Form1.resources
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo_Practico_N_1.Properties.Resources.resources
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo Practico N_1.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo Practico N_1.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo Practico N_1.exe
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo Practico N_1.pdb
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo_Practico_N_1.Form2.resources
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo_Practico_N_1.Form3.resources
+C:\Users\Usuario\Documents\UNIVERSIDAD_UTN\AÑO_2021_1C\PROGRAMACION 3\nuevo\Trabajo Practico N_1\Trabajo Practico N_1\obj\Debug\Trabajo_Practico_N_1.Form4.resources
