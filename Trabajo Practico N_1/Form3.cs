@@ -30,7 +30,7 @@ namespace Trabajo_Practico_N_1
         {
             string nom = textBox1.Text.ToUpper();
             string apell = textBox2.Text.ToUpper();
-            if(nom==apell)
+            if(nom.Trim()==apell.Trim())
             {
                 return 0;
             }
@@ -45,7 +45,7 @@ namespace Trabajo_Practico_N_1
                 string nomA;
                 nomA = textBox1.Text;
                 nomA +=" " +textBox2.Text;
-                if (NomA.ToUpper() == nomA.ToUpper())
+                if (NomA.ToUpper() == nomA.ToUpper().Trim())
                 {
                     return 0;
                 }
@@ -60,7 +60,7 @@ namespace Trabajo_Practico_N_1
             ///Convertimos la primera letra en mayuscula(PrimMay(string)) y lo agremos al lista
             nombApell = PrimMay(textBox1.Text);
             nombApell += " " + PrimMay(textBox2.Text);
-            listBox1.Items.Add(nombApell);
+            listBox1.Items.Add(nombApell.Trim());
         }
 
 
@@ -85,9 +85,7 @@ namespace Trabajo_Practico_N_1
                         else  
                             {
                             MessageBox.Show("EL NOMBRE YA EXISTE", "ATENCIÓN");
-                            }
-                    
-                       
+                            }  
 
                     }
                 else

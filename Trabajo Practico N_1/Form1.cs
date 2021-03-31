@@ -17,21 +17,21 @@ namespace Trabajo_Practico_N_1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)///ejercicio 1
         {
             Form2 form2 = new Form2();
             this.Hide();///Oculta el formulario donde estamos
             form2.Show();///Muestra el nuevo formulario cargado.
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)///ejercico 2
         {
             Form3 form3 = new Form3();
             this.Hide();
             form3.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)///ejercicio 3
         {
             Form4 form4 = new Form4();
             this.Hide();
@@ -40,7 +40,7 @@ namespace Trabajo_Practico_N_1
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            Application.Exit();///cierra todo los formularios abiertos
 
         }
     }

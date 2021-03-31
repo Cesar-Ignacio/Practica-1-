@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace Trabajo_Practico_N_1
 {
@@ -17,13 +18,30 @@ namespace Trabajo_Practico_N_1
             InitializeComponent();
         }
         /**FUNCIONES CREADAS*/
+        
+        private bool RecorrecList1(string nombre)
+        {
+            for(int x=0;x<listBox1.Items.Count;x++)
+            {
+                if(listBox1.Items[x].ToString().ToUpper()==nombre.ToUpper())
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
         private void Existenombre(string nombre)
         {   
-
-            int val = listBox1.FindStringExact(nombre);
-            if(val!=0)
+            bool val =RecorrecList1(nombre);//recorre lista y devuelve true si se encontro false si no existe.
+            if(!val)
             {
-                listBox1.Items.Add(nombre);
+                listBox1.Items.Add(CultureInfo.InvariantCulture.TextInfo.ToTitleCase(nombre));
+            }
+            else
+            {
+                MessageBox.Show("EL NOMBRE YA EXISTE", "ATENCIÓN");
             }
         }
 
@@ -59,7 +77,7 @@ namespace Trabajo_Practico_N_1
         {
             if(textBox1.Text.Trim()!=string.Empty)
             {
-                Existenombre(textBox1.Text);
+                Existenombre(textBox1.Text.Trim());
             }
             textBox1.Text = "";
             textBox1.Focus();
@@ -81,7 +99,7 @@ namespace Trabajo_Practico_N_1
 
         private void bttodos_Click(object sender, EventArgs e)
         {
-            if (listBox1.Items.Count != 0)
+            if (listBox1.Items.Count != 0)///Pregunta si hay items en lista 1
             {
                foreach(string nom in listBox1.Items)
                 {
@@ -106,6 +124,20 @@ namespace Trabajo_Practico_N_1
         {
             Form1 fmenu = new Form1();
             fmenu.Show();
+        }
+
+      
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (textBox1.Text.Length == 0)
+            {
+                if (e.KeyChar == 32)
+                {
+                    MessageBox.Show("No");
+                    e.Handled = true;
+                }
+            }
         }
     }
 }
